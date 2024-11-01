@@ -117,7 +117,7 @@
             display-name = "NAV";
             bindings = <
        &trans      &trans     &kp C_AC_BACK     &kp HOME    &kp PG_UP    &trans       &trans        &trans     &kp UP      &trans     &trans  &trans
-       &trans      &trans     &kp C_AC_FORWA    &kp END     &kp PG_DN    &trans       &trans        &kp LEFT   &kp DOWN    &kp RIGHT  &trans  &trans
+       &trans      &trans     &kp C_AC_FORWARD  &kp END     &kp PG_DN    &trans       &trans        &kp LEFT   &kp DOWN    &kp RIGHT  &trans  &trans
        &trans      &trans     &trans            &trans      &trans       &trans       &trans        &trans     &trans      &trans     &trans  &trans
                                                        &trans  &trans    &trans       &trans        &trans     &trans
             >;
