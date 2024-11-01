@@ -15,6 +15,9 @@
 #define ADJ_L 3
 #define FUN_L 4
 
+&mt { tapping-term-ms = <150>; };
+
+
 / {
     tap_dances {
     	shifty: shift_caps_word {
@@ -136,7 +139,7 @@
         media_layer {
             display-name = "ADJUST";
             bindings = <
-       &sys_reset    &trans        &trans        &trans        &trans          &trans       &trans           &to BAS_L     &kp C_VOL_UP   &kp C_PREV &kp C_BRI_UP &trans
+       &sys_reset    &trans        &trans        &trans        &trans          &trans       &trans           &to BAS_L     &kp C_VOL_UP   &kp C_PREV &kp C_BRI_UP &studio_unlock
        &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4 &bt BT_SEL 5     &trans        &kp C_VOL_DN   &kp C_NEXT &kp C_BRI_DN &trans
        &kp CAPS      &trans        &trans        &trans        &trans          &trans       &trans           &trans        &kp C_MUTE     &kp C_PP &trans &trans
                                            &trans  &trans          &trans       &trans           &trans &trans
