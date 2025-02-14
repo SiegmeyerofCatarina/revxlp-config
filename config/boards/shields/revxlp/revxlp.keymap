@@ -184,7 +184,7 @@
             display-name = "ADJUST";
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ 
-     &bootloader   &sys_reset       &trans     &trans        &trans        &trans             &trans      &to BAS_L    &kp C_VOL_UP  &kp C_PREV    &kp C_BRI_UP &studi_unlock
+     &bootloader   &sys_reset       &trans     &trans        &trans        &trans             &trans      &to BAS_L    &kp C_VOL_UP  &kp C_PREV    &kp C_BRI_UP  &studio_unlock
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_SEL 5     &trans      &kp C_VOL_DN  &kp C_NEXT    &kp C_BRI_DN    &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
