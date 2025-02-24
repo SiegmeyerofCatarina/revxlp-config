@@ -137,7 +137,7 @@
              // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ 
                     &trans        &trans      &kp K_BACK      &kp HOME    &kp PG_UP       &trans            &trans        &trans         &kp UP       &trans        &trans       &kp PSCRN
              // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans      &kp LGUI &mt LALT K_FORWARD &mt LSHIFT END &mt LCTRL PG_DN  &trans          &trans    &mt RCTRL EFT &mt RSHIFT DOWN &mt LALT RIGHT &kp LEFT_GUI    &trans
+                    &trans      &kp LGUI &mt LALT K_FORWARD &mt LSHIFT END &mt LCTRL PG_DN  &trans          &trans    &mt RCTRL LEFT &mt RSHIFT DOWN &mt LALT RIGHT &kp LEFT_GUI    &trans
              // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans        &trans         &trans       &trans        &trans        &trans            &trans        &trans         &trans       &trans        &trans        &trans
              // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
