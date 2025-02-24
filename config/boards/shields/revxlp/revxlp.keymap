@@ -15,7 +15,6 @@
 #define ADJ_L 3
 #define FUN_L 4
 
-
 &lt { 
     quick_tap_ms = <0>; 
     tapping-term-ms = <250>; 
@@ -132,7 +131,6 @@
             >;
         };
 
-
         nav_layer {
             display-name = "NAV";
             bindings = <
@@ -163,7 +161,6 @@
             >;
         };
 
-        
         media_layer {
             display-name = "ADJUST";
             bindings = <
