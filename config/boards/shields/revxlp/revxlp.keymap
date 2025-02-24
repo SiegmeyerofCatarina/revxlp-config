@@ -17,6 +17,7 @@
 
 
 // &lt { quick_tap_ms = <219>; };
+
 &mt { 
   permissive-hold;
   quick-tap-ms = <0>;
@@ -32,16 +33,9 @@
 		#binding-cells = <0>;
 		tapping-term-ms = <150>;
 		bindings = <&kp LSHIFT>, <&caps_word>;
-	};
+	    };
     };
 
-//    cond_layers {
-//        compatible = "zmk,conditional-layers";
-//	tri {
-//	    if-layers = <NUM_L NAV_L>;
-//	    then-layer = <ADJ_L>;
-//        };
-//    };
 
     combos {
         compatible = "zmk,combos";
@@ -125,10 +119,11 @@
         };
     
     };
+};
 
+/{
     keymap {
         compatible = "zmk,keymap";
-
 
         qwerty_layer {
             display-name = "BASE";
@@ -223,14 +218,4 @@
         };
     };
     
-};
-
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NUM_L NAV_L>;
-            then-layer = <ADJ_L>;
-        };
-    };
 };
